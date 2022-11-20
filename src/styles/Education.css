@@ -1,0 +1,26 @@
+.bg-education {
+    background-color: #034687;
+}
+
+h1 {
+    color: #034687;
+}
+
+.section-education {
+   position: relative;
+   bottom: 4rem;
+}
+
+/* media query */
+@media(max-width: 375px) {
+    .card-professional .card-title,
+    .card-text, .card-data {
+        font-size: 0.8rem !important;
+    }
+}
+@media(max-width: 320px) {
+    .card-professional .card-title,
+    .card-text, .card-data {
+        font-size: 0.7rem !important;
+    }
+}

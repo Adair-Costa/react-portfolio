@@ -1,0 +1,32 @@
+* {
+    font-size: 6rem !important;
+}
+
+.width {
+    height: 100vh;
+}
+
+.margin-top {
+    margin-bottom: 7rem;
+}
+
+.button-github {
+    color: #034687 !important;
+}
+
+/* media query */
+@media(max-width: 1440px) {
+    .figure-third {
+        margin-top: 3rem !important;
+    }
+}
+@media(max-width: 1024px) {
+    .margin-projects {
+        margin-bottom: 2rem !important;
+    }
+}
+@media(max-width: 425px) {
+    .margin-projects {
+        text-align: center !important;
+    }
+}

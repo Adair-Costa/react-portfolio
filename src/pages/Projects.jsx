@@ -18,73 +18,91 @@ const Projects = () => {
 
                     <div className="d-flex justify-content-center flex-wrap margin-top margin-projects">
 
-                        <figure className="figure me-5 margin-projects">
+                        <figure className="figure me-5 margin-projects col-425">
                             <div className="text-center">
-                                <img src="logo192.png" className="figure-img img-fluid rounded" alt="..." />
+                                <img src="manager-app.png" className="figure-img img-fluid rounded" alt="Foto of Manage App" />
                             </div>
-                            <figcaption className="figure-caption button-github">Skills: html, css, javascript, bootstrap, react</figcaption>
+                            <div>
+                                <h1>Manager App</h1>
+                            </div>
+                            <figcaption className="figure-caption button-github no-select">Skills: html, css, javascript, bootstrap, react</figcaption>
                             <div className="text-center mt-3">
-                                <a href="#" target="_blank" className="text-decoration-none text-dark button-github">
+                                <a href="https://github.com/Adair-Costa/react-manager-app.git" target="_blank" rel="noreferrer" className="text-decoration-none text-dark button-github">
                                     {iconGithub}
                                 </a>
                             </div>
                         </figure>
 
-                        <figure className="figure me-5">
+                        <figure className="figure me-5 col-425">
                             <div className="text-center">
-                                <img src="logo192.png" className="figure-img img-fluid rounded" alt="..." />
+                                <img src="list-contacts.png" className="figure-img img-fluid rounded" alt="Foto of list contact app" />
+                            </div>
+                            <div>
+                                <h1>List Contacts</h1>
                             </div>
                             <figcaption className="figure-caption button-github">Skills: html, css, javascript, bootstrap, react</figcaption>
                             <div className="text-center mt-3">
-                                <a href="#" target="_blank" className="text-decoration-none text-dark button-github">
+                                <a href="https://github.com/Adair-Costa/react-list-contacts.git" target="_blank" rel="noreferrer" className="text-decoration-none text-dark button-github">
                                     {iconGithub}
                                 </a>
                             </div>
                         </figure>
 
-                        <figure className="figure me-5 figure-third">
+                        <figure className="figure me-5 figure-third col-425">
                             <div className="text-center">
-                                <img src="logo192.png" className="figure-img img-fluid rounded" alt="..." />
+                                <img src="to-do-list.png" className="figure-img img-fluid rounded" alt="Foto of To-do-list app" />
+                            </div>
+                            <div>
+                                <h1>To-do-list</h1>
                             </div>
                             <figcaption className="figure-caption button-github">Skills: html, css, javascript, bootstrap, react</figcaption>
                             <div className="text-center mt-3">
-                                <a href="#" target="_blank" className="text-decoration-none text-dark button-github">
+                                <a href="https://github.com/Adair-Costa/react-to-do-list.git" target="_blank" rel="noreferrer" className="text-decoration-none text-dark button-github">
                                     {iconGithub}
                                 </a>
                             </div>
                         </figure>
 
-                        <figure className="figure me-5 mt-5">
+                        <figure className="figure me-5 mt-5 col-425 figure-portfolio">
                             <div className="text-center">
-                                <img src="logo192.png" className="figure-img img-fluid rounded" alt="..." />
+                                <img src="portfolio.png" className="figure-img img-fluid img-fluid-portfolio rounded" alt="Foto of personal portfolio app" />
                             </div>
-                            <figcaption className="figure-caption button-github">Skills: html, css, javascript, bootstrap, react</figcaption>
+                            <div>
+                                <h1>Personal portfolio</h1>
+                            </div>
+                            <figcaption className="figure-caption button-github no-select">Skills: html, css, javascript, bootstrap, react</figcaption>
                             <div className="text-center mt-3">
-                                <a href="#" target="_blank" className="text-decoration-none text-dark button-github">
+                                <a href="https://github.com/Adair-Costa/react-portfolio.git" target="_blank" rel="noreferrer" className="text-decoration-none text-dark button-github">
                                     {iconGithub}
                                 </a>
                             </div>
                         </figure>
 
-                        <figure className="figure me-5 mt-5">
+                        <figure className="figure me-5 mt-5 col-425">
                             <div className="text-center">
-                                <img src="logo192.png" className="figure-img img-fluid rounded" alt="..." />
+                                <img src="e-comerce.png" className="figure-img img-fluid rounded" alt="Foto of e-comerce" />
+                            </div>
+                            <div>
+                                <h1>E-comerce</h1>
                             </div>
                             <figcaption className="figure-caption button-github">Skills: html, css, javascript, bootstrap, react</figcaption>
                             <div className="text-center mt-3">
-                                <a href="#" target="_blank" className="text-decoration-none text-dark button-github">
+                                <a href="https://github.com/Adair-Costa/react-e-comerce.git" target="_blank" rel="noreferrer" className="text-decoration-none text-dark button-github">
                                     {iconGithub}
                                 </a>
                             </div>
                         </figure>
 
-                        <figure className="figure me-5 mt-5">
+                        <figure className="figure me-5 mt-5 col-425">
                             <div className="text-center">
-                                <img src="logo192.png" className="figure-img img-fluid rounded" alt="..." />
+                                <img src="space-x.png" className="figure-img img-fluid rounded" alt="Foto of spaceX" />
                             </div>
-                            <figcaption className="figure-caption button-github">Skills: html, css, javascript, bootstrap, react</figcaption>
+                            <div>
+                                <h1>Clone spaceX</h1>
+                            </div>
+                            <figcaption className="figure-caption button-github no-select">Skills: html, css, javascript, bootstrap, sass</figcaption>
                             <div className="text-center mt-3">
-                                <a href="#" target="_blank" className="text-decoration-none text-dark button-github">
+                                <a href="https://github.com/Adair-Costa/clone-spaceX.git" target="_blank" rel="noreferrer" className="text-decoration-none text-dark button-github">
                                     {iconGithub}
                                 </a>
                             </div>

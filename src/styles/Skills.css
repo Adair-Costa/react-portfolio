@@ -17,7 +17,7 @@
 /* media query */
 @media(max-width: 1440px) {
     .width {
-        height: 70vh !important;
+        height: 80vh !important;
     }
 }
 @media(max-width: 1024px) {

@@ -28,19 +28,19 @@ const Home = () => {
 
                             <ul className="list-unstyled d-flex justify-content-center">
                                 <li className="me-3">
-                                    <a className="text-decoration-none text-white" target="_blank" href="https://www.linkedin.com/in/adair-costa-670aaa17b/">
+                                    <a className="text-decoration-none text-white" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/adair-costa-670aaa17b/">
                                         {iconLinkedin}
                                     </a>
                                 </li>
 
                                 <li className="me-3">
-                                    <a className="text-decoration-none text-white" target="_blank" href="https://github.com/Adair-Costa/Adair-Costa/blob/main/README.md">
+                                    <a className="text-decoration-none text-white" target="_blank" rel="noreferrer" href="https://github.com/Adair-Costa/Adair-Costa/blob/main/README.md">
                                         {iconGithub}
                                     </a>
                                 </li>
 
                                 <li className="me-3">
-                                    <a className="text-decoration-none text-white" target="_blank" href="https://outlook.live.com/mail/0/">
+                                    <a className="text-decoration-none text-white" target="_blank" rel="noreferrer" href="https://outlook.live.com/mail/0/">
                                         {iconEnvelope}
                                     </a>
                                 </li>

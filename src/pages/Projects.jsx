@@ -20,7 +20,7 @@ const Projects = () => {
 
                         <figure className="figure me-5 margin-projects col-425">
                             <div className="text-center">
-                                <img src="./static/manager-app.png" className="figure-img img-fluid rounded" alt="Foto of Manage App" />
+                                <img src="manager-app.png" className="figure-img img-fluid rounded" alt="Foto of Manage App" />
                             </div>
                             <div>
                                 <h1>Manager App</h1>

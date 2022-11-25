@@ -73,6 +73,14 @@
 }
 
 /* media query */
+@media screen and (max-width: 1440px) {
+    .bg-header {
+        border-bottom: none;
+    }
+    .bg-home {
+        border-top: none;
+    }
+}
 @media(max-width: 991px) {
     #hidden {
         visibility: hidden;

@@ -31,7 +31,7 @@ figcaption, h1 {
         margin-left: 0.2rem;
     }
 }
-@media(min-width: 992px) {
+@media screen and (min-width: 992px) {
     figure:hover {
         transform: scale(1.2);
         transition: all 1.5s ease;

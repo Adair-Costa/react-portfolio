@@ -2,12 +2,8 @@
     font-size: 6rem !important;
 }
 
-.width {
-    height: 100vh;
-}
-
 .margin-top {
-    margin-bottom: 7rem;
+    margin-bottom: 2rem;
 }
 
 .button-github {
@@ -35,18 +31,26 @@ figcaption, h1 {
         margin-left: 0.2rem;
     }
 }
-@media(min-width: 576px) {
+@media(min-width: 992px) {
     figure:hover {
         transform: scale(1.2);
         transition: all 1.5s ease;
         cursor: pointer;
     }
 }
-@media(max-width: 425px) {
-    .margin-projects {
+@media screen and (max-width: 540px) {
+    .align-text {
         text-align: center !important;
     }
     .col-425 {
-        margin-left: 2.5rem;
+        width: 100vw !important;
+    }
+}
+@media(max-width: 425px) {
+    .align-text {
+        text-align: center !important;
+    }
+    .col-425 {
+        width: 100vw !important;
     }
 }

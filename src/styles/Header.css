@@ -81,6 +81,13 @@
         border-top: none;
     }
 }
+@media screen and (min-width: 1440px) {
+    .navbar-nav .nav-item .nav-link:hover {
+        text-decoration: underline;
+        color: #ffc107 !important;
+        transition: all 1.5s ease-in-out;
+    }
+}
 @media(max-width: 991px) {
     #hidden {
         visibility: hidden;

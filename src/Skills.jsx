@@ -6,7 +6,7 @@ const Skills = () => {
         <div className="container-fluid bg-white width">
             <div className="row text-dark p-5">
                 <div className="col col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <div className="text-start">
+                    <div className="text-start margin-col">
                         <h1 className="card-title text-center color-text-skills">Skills</h1>
 
                         <div className="card-body margin-col">

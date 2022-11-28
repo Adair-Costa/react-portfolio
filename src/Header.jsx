@@ -38,7 +38,7 @@ const Header = () => {
                                 <span className="toggler-icon bottom-bar"></span>
                             </button>
 
-                            <div className="collapse navbar-collapse d-flex justify-content-center" id={showMenu ? "show" : "hidden"}>
+                            <div className="collapse navbar-collapse d-flex justify-content-center nav-transition" id={showMenu ? "show" : "hidden"}>
                                 <ul className="navbar-nav text-center">
                                     <li className="nav-item">
                                         <Link className="nav-link active text-white" aria-current="page" to="/">Home</Link>

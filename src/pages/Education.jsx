@@ -12,7 +12,7 @@ const Educations = () => {
 
                         <div className="card mb-5 bg-education text-white p-3 card-professional">
                             <div className="card-body">
-                                <h5 className="card-title">Professional Technical School of Cantanhede - Coimbra - Portugal</h5>
+                                <h5 className="card-title text-warning mb-3">Professional Technical School of Cantanhede - Coimbra - Portugal</h5>
                                 <p className="card-text">Computer Systems Management and Programming Technician</p>
                                 <p className="text-center card-data">Sep 2015</p>
                             </div>
@@ -20,7 +20,7 @@ const Educations = () => {
 
                         <div className="card mb-5 bg-education text-white p-3 card-professional">
                             <div className="card-body">
-                                <h5 className="card-title">Autonomous University of Lisbon</h5>
+                                <h5 className="card-title text-warning mb-3">Autonomous University of Lisbon</h5>
                                 <p className="card-text">Computer Science and engineering</p>
                                 <p className="text-center card-data">Sep 2021</p>
                             </div>
@@ -28,7 +28,7 @@ const Educations = () => {
 
                         <div className="card bg-education text-white p-3 card-professional">
                             <div className="card-body">
-                                <h5 className="card-title">One Bit Code</h5>
+                                <h5 className="card-title text-warning mb-3">One Bit Code</h5>
                                 <p className="card-text">Full Stack Javascript</p>
                                 <p className="text-center card-data">Jan 2021</p>
                             </div>

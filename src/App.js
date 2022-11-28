@@ -12,17 +12,15 @@ import Header from "./Header";
 
 const App = () => {
     return (
-        <div className="app">
-            <Router>
-                <Header />
-                
-                <Routes>
-                    <Route path="/" element={ <Home/> } />
-                    <Route path="/projects" element={ <Projects/> } />
-                    <Route path="/experiences" element={ <Education/> } />
-                </Routes>
-            </Router>
-        </div>
+        <Router>
+            <Header />
+            
+            <Routes>
+                <Route path="/" element={ <Home/> } />
+                <Route path="/projects" element={ <Projects/> } />
+                <Route path="/experiences" element={ <Education/> } />
+            </Routes>
+        </Router>
     );
 }
 

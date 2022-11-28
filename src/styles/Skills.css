@@ -4,16 +4,26 @@
 
 .color-text-skills {
     color: #034687;
+    font-size: 1.2rem !important;
 }
 
 .width {
-    height: 100vh !important;
+    height: 80vh !important;
 }
 
 .margin-col {
     margin-top: 7rem !important;
 }
 
+#margin-col-skills {
+    position: relative;
+    bottom: 10rem !important;
+}
+
+#margin-col-title {
+    position: relative;
+    bottom: 7rem !important;
+}
 /* media query */
 @media(max-width: 1440px) {
     .width {
